@@ -12,3 +12,19 @@ install makefile extention
 
 Run bot via command:
 make run
+
+in config folder create default.json with data:
+
+{
+"TELEGRAM_TOKEN": BOT_TOKEN,
+"OPENAI_KEY": openai_key,
+"TEST_ENV": "dev"
+}
+
+additionaly create production.json with data:
+
+{
+"TELEGRAM_TOKEN": BOT_TOKEN,
+"OPENAI_KEY": openai_key,
+"TEST_ENV": "prod"
+}
